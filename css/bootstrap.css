@@ -1442,6 +1442,10 @@ img {
     max-width: 100%;
     height: auto
 }
+.portfolio-thumb {
+    margin-bottom: 24px;
+    width: 100%;
+}
 
 .img-rounded {
     border-radius: 6px
@@ -3750,7 +3754,7 @@ fieldset[disabled] a.btn {
 .btn-default.active,
 .btn-default:active,
 .open>.dropdown-toggle.btn-default {
-    color: #333;
+    color: rgb(90, 5, 5);
     background-color: #e6e6e6;
     border-color: #adadad
 }

@@ -132,7 +132,6 @@ strong
 .d-bloc h1 a,
 .d-bloc h2 a,
 .d-bloc h3 a,
-.d-bloc h4 a,
 .d-bloc h5 a,
 .d-bloc h6 a,
 .d-bloc p a {
@@ -149,7 +148,6 @@ strong
 .d-bloc h1 a:hover,
 .d-bloc h2 a:hover,
 .d-bloc h3 a:hover,
-.d-bloc h4 a:hover,
 .d-bloc h5 a:hover,
 .d-bloc h6 a:hover,
 .d-bloc p a:hover {
@@ -253,7 +251,6 @@ strong
 .l-bloc h1 a,
 .l-bloc h2 a,
 .l-bloc h3 a,
-.l-bloc h4 a,
 .l-bloc h5 a,
 .l-bloc h6 a,
 .l-bloc p a {
@@ -271,7 +268,6 @@ strong
 .l-bloc h1 a:hover,
 .l-bloc h2 a:hover,
 .l-bloc h3 a:hover,
-.l-bloc h4 a:hover,
 .l-bloc h5 a:hover,
 .l-bloc h6 a:hover,
 .l-bloc p a:hover {
@@ -373,7 +369,7 @@ strong
 }
 
 .navbar-toggle .icon-bar {
-    background-color: rgba(0, 0, 0, .5);
+    background-color: rgba(138, 57, 57, 0.5);
     width: 26px;
 }
 
@@ -503,6 +499,7 @@ button {
 
 .icon-md {
     font-size: 30px!important;
+    color: white!important;
 }
 
 .icon-lg {
@@ -668,7 +665,6 @@ a[data-lightbox]:hover img {
 h1,
 h2,
 h3,
-h4,
 h5,
 h6,
 p,
@@ -724,10 +720,23 @@ p {
     font-size: 16px;
     font-weight: 700;
 }
-
+.socialTitle
+{
+    text-align: center;
+    margin-bottom: 5%;
+    color: rgb(255, 255, 255)!important;
+}
+#titleSocial
+{
+    color: rgb(255, 255, 255)!important;
+}
 .social {
+    color: rgb(255, 255, 255)!important;
     max-width: 400px;
     margin: auto auto auto auto;
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
 }
 
 h2 {
@@ -751,11 +760,6 @@ h3 {
 h1 {
     color: #333333!important;
 }
-
-h4 {
-    color: #333333!important;
-}
-
 .icons {
     margin-bottom: 14px;
     margin-top: 24px;
@@ -797,7 +801,7 @@ h4 {
 }
 
 .bgc-atomic-tangerine {
-    background-color: #2F302F;
+    background-color: #e99a75;
 }
 
 .tc-white {
@@ -805,14 +809,13 @@ h4 {
 }
 
 .btn-atomic-tangerine {
-    background: #2F302F;
+    background: #e99a75;
     
-    color: #FFFFFF!important;
+    color: #000000!important;
 }
 
 .btn-atomic-tangerine:hover {
     background: #c27956!important;
-    color: #FFFFFF!important;
 }
 
 .ltc-white {
@@ -924,7 +927,6 @@ h4 {
     h1,
     h2,
     h3,
-    h4,
     h5,
     h6,
     p,
