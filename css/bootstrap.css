@@ -228,6 +228,11 @@ td,
 th {
     padding: 0
 }
+/* optmisation */
+.descriptionChouetteAgence
+{
+    font-size: 2em!important;
+}
 
 /*! Source: https://github.com/h5bp/html5-boilerplate/blob/master/src/css/main.css */
 
@@ -267,14 +272,12 @@ th {
     tr {
         page-break-inside: avoid
     }
-    img {
-        max-width: 100% !important
-    }
+    
     h2,
     h3,
     p {
         orphans: 3;
-        widows: 3
+        widows: 3;
     }
     h2,
     h3 {
@@ -1625,6 +1628,7 @@ p {
     margin: 0 0 10px
 }
 
+
 .lead {
     margin-bottom: 20px;
     font-size: 16px;
@@ -1636,6 +1640,13 @@ p {
     .lead {
         font-size: 21px
     }
+}
+
+
+.a
+{
+display: flex;
+justify-content: center;
 }
 
 .small,
@@ -1658,7 +1669,8 @@ mark {
 }
 
 .text-center {
-    text-align: center
+    text-align: center;
+    font-size: 14px;
 }
 
 .text-justify {
