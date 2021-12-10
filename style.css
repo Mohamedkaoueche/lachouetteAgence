@@ -17,7 +17,7 @@ a:hover {
     text-decoration: none;
     cursor: pointer;
 }
-a:focus
+
 #page-loading-blocs-notifaction {
     position: fixed;
     top: 0;
@@ -354,9 +354,8 @@ strong
     text-align: inherit;
 }
 
-.nav > li a:hover,
 .nav > li a:focus {
-    background: transparent;
+    box-shadow: 5px 5px 5px 5px black;  
 }
 
 .navbar-toggle {
@@ -674,6 +673,15 @@ a {
     font-family: "helvetica";
     font-weight: 400;
     color: #575757!important;
+}
+
+input:focus
+{   
+    box-shadow: 5px 5px 5px 5px black;
+}
+.focusVisible:focus
+{
+    box-shadow: 5px 5px 5px 5px black;
 }
 
 .container {
@@ -1039,9 +1047,6 @@ h3 {
     }
     .a-block {
         padding: 0 10px;
-    }
-    .btn-dwn {
-        display: none;
     }
     .voffset {
         margin-top: 5px;
