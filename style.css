@@ -681,9 +681,8 @@ input:focus
 }
 .focusVisible:focus
 {
-    box-shadow: 5px 5px 5px 5px black;
+    border-top: 2px solid red;
 }
-
 .container {
     max-width: 1000px;
 }
